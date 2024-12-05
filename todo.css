@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DynaPuff:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  background-color: #FCFAF8;
+}
+
+.inputbox {
+  height: 300px;
+  width: 1300px;
+  margin: 3% 0 0 50%;
+  transform: translate(-50%);
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: "DynaPuff", system-ui;
+  font-size: 35px;
+  margin: 10px 0 0 0;
+  color: #DC4C3E;
+}
+
+.context {
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  margin: 148px 0 0 0;
+  font-weight: 500;
+  color: #DC4C3E;
+}
+
+.action {
+  display: flex;
+  position: absolute;
+  top: 240px;
+}
+
+#userinp {
+  height: 40px;
+  width: 450px;
+  border-radius: 8px;
+}
+
+#submit {
+  height: 43px;
+  width: 80px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+  background-color: #DC4C3E;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+#submit:hover {
+  background-color: #c43726;
+}
+
+.align {
+  height: 350px;
+  width: 1300px;
+  margin: 20px 0 0 50%;
+  transform: translate(-50%);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  height: 350px;
+  width: 640px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardtitle {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  margin: 15px 0 0 60px;
+  font-weight: 400;
+  color: #DC4C3E;
+}
+
+.content {
+  height: 50px;
+  width: 600px;
+  outline: 1px solid gray;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 0;
+  position: relative;
+  color: #DC4C3E;
+  font-size: 18px;
+  position: relative;
+}
+
+.opts {
+  position: absolute;
+  left: 5px;
+  height: auto;
+  width: 300px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3), -1px -2px 4px rgba(0, 0, 0, 0.3);
+  color: black;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background: #f5f5f5;
+  border-radius: 8px;
+  align-items: center;
+}
+.contentText{
+	position: absolute;
+	left:10px;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  right: 15px;
+}
+
+.buttons button {
+  cursor: pointer;
+  height: 25px;
+  width:80px;
+  background-color: white;
+  color: #DC4C3E;
+  outline:1px solid #DC4C3E;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #f5f5f5;
+}

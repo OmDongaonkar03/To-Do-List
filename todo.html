@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todo.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="inputbox">
+    <h1 class="heading">Todo-fy</h1>
+    <p class="context">Add Task below :</p>
+    <div class="action">
+      <input type="text" id="userinp" placeholder="Enter your task" />
+      <button id="submit" onclick="addTask()">Add</button>
+    </div>
+  </div>
+  <div class="align">
+    <div id="added" class="card">
+      <h2 class="cardtitle">Added</h2>
+      <div class="task-container">
+        <!-- Added tasks will be displayed here -->
+      </div>
+    </div>
+    <div  class="card">
+      <h2 class="cardtitle">Done</h2>
+      <div class="task-container" id="pending">
+        <!-- Completed tasks will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
